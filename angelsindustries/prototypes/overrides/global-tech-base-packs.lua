@@ -60,6 +60,7 @@ if angelsmods.industries.tech then
   pack_replace("angels-components-construction-2", "green", "red")
   pack_replace("angels-components-cabling-2", "green", "red")
   pack_replace("angels-components-mechanical-2", "green", "red")
+  pack_replace("angels-flare-stack", "green", "red")
 
   -------------------------------------------------------------------------------
   -- GREEN SCIENCE PACKS --------------------------------------------------------
