@@ -121,8 +121,9 @@ if angelsmods.trigger.smelting_products["glass"].board then
     OV.remove_unlock("advanced-electronics-2", "fibreglass-board")
     OV.disable_recipe({"fibreglass-board"})
   else
-    angelsmods.functions.add_flag("angels-coil-glass-fiber", "hidden")
-    OV.disable_recipe({"angels-coil-glass-fiber","angels-glass-fiber-board"})
+    log("this did the trick")
+--    angelsmods.functions.add_flag("angels-coil-glass-fiber", "hidden")
+    OV.disable_recipe({"angels-glass-fiber-board"})
     --[[OV.patch_recipes(
       {
         {
